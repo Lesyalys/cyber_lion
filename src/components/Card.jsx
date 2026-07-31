@@ -4,7 +4,7 @@ export default function Card({ title, text }) {
       <div className="card-content">
         <div className="card-text">
           <h1 className="vacancy-title">{title}</h1>
-          <p className="vacancy-subtitle">{text}</p>
+          <strong className="vacancy-subtitle">{text}</strong>
         </div>
         <img src="./img/lion.svg" className="card-logo" alt="lion" />
       </div>
